@@ -6,3 +6,10 @@ for i  in range(i,j+1):
 else:
         print(i)
         
+OUTPUT
+enter the current year:2022
+enter the year to which leapyear has to be printed:2034
+2024 -leapyear
+2028 -leapyear
+2032 -leapyear
+2034
