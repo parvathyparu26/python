@@ -1,0 +1,17 @@
+len=int(input("how many nos do you want to store?"))
+ir num in range(0,len):
+    inputvaluelist = []
+    values=int(input("enter a value")
+           if values<=100:
+                input valuelist.append("over")
+           else:
+               inpvalue list.append("values")
+print(inpvalue list)
+
+output
+how many numbers do you want to store? 5
+enter value 1
+enter value 2
+enter value 3
+enter value 101
+[1,2,3,'over','over']
