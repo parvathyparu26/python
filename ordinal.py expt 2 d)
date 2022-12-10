@@ -1,0 +1,14 @@
+word=input("Enter words")
+print([ord(i) for i in word])
+for i in word:
+        print("ordinal value of",i,"is:",ord(i))
+        output
+        Enter words COLLEGE
+[67, 79, 76, 76, 69, 71, 69]
+ordinal value of C is: 67
+ordinal value of O is: 79
+ordinal value of L is: 76
+ordinal value of L is: 76
+ordinal value of E is: 69
+ordinal value of G is: 71
+ordinal value of E is: 69
