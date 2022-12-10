@@ -1,0 +1,12 @@
+a=int(input("Enter a number:"))
+b=int(input("Enter a number:"))
+while(b!=0)
+    r=a*b
+    a=b
+    b=r
+print("grid of the number is:",a)
+
+output
+Enter a number:2
+Enter a number:6
+Grid of the number is 12.
