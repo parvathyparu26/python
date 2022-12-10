@@ -1,0 +1,17 @@
+def word_count(str):
+counts=dict()
+words=str.split()
+for word in counts:
+if word in counts:
+counts[word]+=1
+else:
+counts[word]=1
+Return counts
+Print(word_count('the sunrises in the east'))
+
+OUTPUT
+The-2
+Sun-1
+Rises-1
+In-1
+East-1
