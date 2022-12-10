@@ -1,0 +1,54 @@
+Flist[]
+Slist[]
+Sum1=0
+Sum2=0
+Len1-int(input("how many nos do you want to add in first list?"))
+For I in range (o,len1):
+inp=int(input("enter the value for element"))
+flist.append(inp)
+len2=int(input("how many nos do you want to add in second list?"))
+for I in range(0,len2):
+inp=int(input("enter the value of element"))
+slist.append(inp)
+if(len(flist))==(len(slist)):
+print("two list are of same length")
+else:
+print("list have diff length")
+for num in flist:
+sum1+=num
+for num in slist:
+sum2+=num
+if sum1==sum2:
+print("the sum of values of elements in both lists are equal")
+else:
+print("the sum of values of both lists element are different")
+for num in flist:
+if num in slist:
+print(num,"found in both lists\n")
+else:
+print(num,"not found")
+
+output
+How many numbers do you want to store 2
+How many numbers do you want to store 2
+Enter the number1
+Enter the number2
+Enter the number3
+Enter the number4
+Two length
+How many numbers do you want to store 3
+How many numbers do you want to store 1
+Enter the number1
+ Enter the number1
+ Enter the number 2
+Enter the number3
+Two length
+How many numbers do you want to store 2
+How many numbers do you want to store 2 
+Enter the number1
+Enter the number2
+Enter the number3
+Two length
+There sum are equal 
+1 not found
+2 not found
