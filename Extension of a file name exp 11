@@ -1,0 +1,7 @@
+Filename=input("enter the name of a file")
+File_exit=filename.split(".")
+Print("the extension of the file is :"+(file_exit[-1]))
+
+output
+Enter the name of a file string.py
+The extension of the file is:py
