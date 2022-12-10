@@ -1,0 +1,13 @@
+Count=int(input("how much colors:))"
+Colorlist=[]
+for i in range (count):
+color=input("enter the color:")
+colorlist.append(color)
+print(colorlist[0]," ",colorlist[-1])
+
+output
+How much colors:3
+Enter the color:red
+Enter the color:green
+Enter the color:yellow
+Red,yellow
