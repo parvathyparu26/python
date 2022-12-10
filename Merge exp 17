@@ -1,0 +1,6 @@
+Dict1={1:'orange',2:'apple'}
+Dict2={3:'grape',4:'mango'}
+Print(dict-1,dict 2)
+
+output
+{1:'orange',2:'apple',3:'grape',4:'mango'}
