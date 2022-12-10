@@ -1,0 +1,8 @@
+r= int(input("Enter the Radius")
+pi=3.14
+area=(pi*r**2)
+print("The area is",area)
+
+output
+Enter the radius 4.
+The area is 50.24
