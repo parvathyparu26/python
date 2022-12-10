@@ -1,0 +1,23 @@
+Colorlist1=[]
+Colorlist2=[]
+Colorlist3=[]
+a=int(input("how many colors do you want to enter colorlist 1")
+for i in range(a):
+color1=input("enter the color")
+colorlist1.append(color1)
+b=int(input("enter the colors to insert in colorlist2:"))
+for i in range(b):
+color2=input("enter the color")
+colorlist2.append(color2)
+colorlist3=[each for each in colorlist1 if each not in colorlist2]
+print(colorlist3)
+
+output
+How many colors you want to enter the colorlist3
+Enter the color: red
+Enter the color: yellow
+Enter the color: blue
+How many color you want to enter the colorlist2
+Enter the color: red
+Enter the color: black
+["yellow"," blue"]
