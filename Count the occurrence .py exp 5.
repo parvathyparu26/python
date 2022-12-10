@@ -1,0 +1,15 @@
+firstNamelist=[]
+len=int(input("how many names do you want to insert"))
+for i in range(o,len):
+fname=input("enter the first name you want to add to list")
+first namelist.append(fname)
+count_a=0
+for names in first namelist:
+count_a+=names.count("a")
+print(count_a)
+ 
+ output
+ How many names do you want to insert 2.
+Enter the first name you want to add to list ammu.
+Enter the first name you want to add to list anu.
+2.
