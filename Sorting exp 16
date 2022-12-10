@@ -1,0 +1,16 @@
+Import operator
+D={1:2,3:4,4:3,2:1,0:0}
+Print("original dictionary"' ',d)
+Sorted-d-sorted(d.items(),key =operator.itemgelter(i))
+Print(dictionary in asending order by value;'sorted-d)
+Sorted-d=dict(sorted cd items(),key =operator  Hemgetter(1),reverse=true))
+Print('dictionary indescending order by value:' sorted,d)
+
+output
+Original dictionary
+{1:2,3:4,4:3,2:1,0:0}
+String is ascending order
+{0:0,1:2,2:1,3:4,4:3}
+Sorting in descending order
+{4:3,3:4,2:1,1:2,0:0}
+
