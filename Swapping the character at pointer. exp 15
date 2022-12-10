@@ -1,0 +1,7 @@
+String=input("enter the 2 strings separated by comma
+String=string.split()
+Print(string[1][0]+string[0][1:]+" "+string[0][0]+string[1][1:])
+output
+Enter the two strings separated by comma
+Hello,everyone.
+
