@@ -1,0 +1,15 @@
+X=int(input("enter the number:"))
+Y=int(input("enter the number:"))
+Z=int(input("enter the number:"))
+If x>y andx>y:
+Print(x,"is biggest")
+elif y>x and y>z:
+print(y,"is biggest")
+else:
+print(z,"is biggest")
+
+output
+Enter the number:5	
+Enter the number:4
+Enter the number:3
+5 is biggest.
