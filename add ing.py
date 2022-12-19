@@ -1,18 +1,16 @@
-def add_string(str1):
-  length = len(str1)
 
-  if length > 2:
-    if str1[-3:] == 'ing':
-      str1 += 'ly'
+def addingorly(str):
+    if(str[-3:]=="ing"):
+        str= str + "ly"
     else:
-      str1 += 'ing'
+        str = str + "ing"
+    return str
+word= input("Enter a word to modify :")
+modifiedstring=addingorly(word)
+print("Modified string=",modifiedstring)
+Footer
+Output
 
-  return str1
-print(add_string('draw'))
-print(add_string('danc'))
-print(add_string('play'))
+Enter a string you want to modify: playing
 
-output
-drawing
-dancing
-playing
+Modified string:playeingely
